@@ -20,4 +20,4 @@ Google IME などで絵文字をアルファベットからよしなに入力で
 
 ## 謝辞
 
-[emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary) の `:わらい` 等の prefix に `:` を使って IME から変換するアイディアを利用しています。
+[emoji-ime-dictionary](https://github.com/peaceiris/emoji-ime-dictionary) の `:ぺっと` 等の prefix に `:` を使って IME から変換するアイディアを利用しています。なお、 emoji-ime-dictionary も絵文字入力にとても便利です。
