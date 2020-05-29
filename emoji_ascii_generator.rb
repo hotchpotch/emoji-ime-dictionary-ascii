@@ -12,4 +12,8 @@ emoji_list = emojis.map do |main_key, data|
 end.flatten(1).sort.uniq.find_all {|d| d.match(/[a-zA-Z\d]/) }
 
 open('emoji_ascii_dict.txt', 'w') {|file| file.puts emoji_list.join("\n")}
-open('emoji_ascii_dict_u16le.txt', 'w:UTF-16LE') {|file| file.puts emoji_list.join("\r\n")}
+
+open('emoji_ascii_dict_u16le.txt', 'wb:UTF-16LE') {|file|
+  file.write "\uFEFF" # BOM
+  file.puts emoji_list.join("\r\n").encode('UTF-16LE')
+}
