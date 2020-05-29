@@ -16,7 +16,7 @@ Google IME などで絵文字をアルファベットからよしなに入力で
 
 [emoji_ascii_dict.txt](./emoji_ascii_dict.txt) を raw でダウンロードした後に IME のインポート機能などで登録して利用できます。
 
-また MS-IME の人は [emoji_ascii_dict_u16le.txt] で(たぶん)インポートできます。
+また MS-IME の人は [emoji_ascii_dict_u16le.txt](./emoji_ascii_dict_u16le.txt) で(たぶん)インポートできます。
 
 ## 謝辞
 
