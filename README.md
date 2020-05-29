@@ -4,7 +4,9 @@
 
 Google IME などで絵文字をアルファベットからよしなに入力できるようにするための辞書です。
 
-例えば `:CRY` と入力すると、以下のような感じで入力できます。
+例えば `:BEE` と入力し TAB キーを押すと、以下のような感じで候補が表示され、入力できます。
+
+![IME Image](https://cdn-ak.f.st-hatena.com/images/fotolife/s/secondlife/20200529/20200529184408.png)
 
 大本の辞書ファイルは [emojilib](https://github.com/muan/emojilib) を使っています。
 
